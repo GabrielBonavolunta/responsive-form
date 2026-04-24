@@ -2,4 +2,160 @@
 
 * {
     font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(67, 67, 153);
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.form-image {
+    background-color: rgb(212, 212, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    justify-content: center;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-header h1 {
+    position: relative;
+    font-weight: bold;
+}
+
+.form-header h1::after {
+    position: absolute;
+    content: '';
+    background-color: rgb(71, 71, 199);
+    bottom: 0;
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+}
+
+.form-header button {
+    background-color: rgb(71, 71, 199);
+    color: #f1f1f1;
+    padding: 8px;
+    border-radius: 10px;
+    width: 4rem;
+    border: none;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.form-header button:hover {
+    background-color: rgb(42, 42, 126);
+}
+
+
+.input-group {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    width: calc(50% - 10px);
+    gap: 10px;
+}
+
+.input-box label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input-box input {
+    border: none;
+    color: #000;
+    box-shadow: 1px 1px 6px #0000001c;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.gender-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.gender-options {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+.continue {
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(71, 71, 199);
+    padding: 10px;
+    border: none;
+    color: #f1f1f1;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1330px) {
+    .form-image {
+        display: none;
+    }
+
+    .form-header {
+        gap: 15px;
+    }
+
+
+    .container{
+        width: 50%;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .gender-options {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1064px) {
+    .container {
+        width: 90%;
+        height: auto;
+    }
+    
+    .input-box {
+        width: 100%;
+    }
 }
