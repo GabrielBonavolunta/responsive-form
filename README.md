@@ -54,7 +54,11 @@ Acessibilidade aprimorada
 
 Desktop:
 
+
+
 <img width="1915" height="921" alt="image" src="https://github.com/user-attachments/assets/8e5b5965-0578-4147-a26d-b5c885da40d9" />
+
+
 
 
 Mobile:
