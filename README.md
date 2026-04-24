@@ -12,6 +12,7 @@ O formulário se ajusta automaticamente para dispositivos como:
 🛠️ Tecnologias utilizadas
 
 HTML5
+
 CSS3 (Flexbox)
 
 🎯 Funcionalidades
@@ -26,7 +27,7 @@ Compatível com diferentes navegadores
 O projeto utiliza técnicas como:
 
 Media Queries
-Flexbox/Grid Layout
+Flexbox
 Unidades relativas (%, rem, vh, vw)
 
 para garantir uma boa experiência em qualquer dispositivo.
